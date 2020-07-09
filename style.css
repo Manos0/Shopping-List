@@ -1,0 +1,38 @@
+body{
+  display: grid;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0c528;
+  border-radius: 7px;
+}
+
+ul li{
+  list-style: none;
+}
+
+input::placeholder {
+  color: red;
+}
+
+#userinput{
+	text-align: center;
+}
+
+li,button:hover {
+	cursor: pointer;
+}
+button{
+    background-color: #b53c24;
+    color: white;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.done{
+	text-decoration: line-through;
+}
